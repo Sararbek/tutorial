@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Heaeder -->
+    <header class="w-full py-[30px]">
+      <div class="container max-w-[1280px]">
+        <nav class="flex items-center gap-x-[30px]">
+          <div class="flex-1">
+            <p
+              class="text-[32px] font-RobotoFlex font-semibold text-yelloWcolor"
+            >
+              Skill.
+            </p>
+          </div>
+          <ul
+            class="flex gap-x-[54px] items-center max-[700px]:gap-x-[20px] max-[500px]:hidden"
+          >
+            <li>
+              <a
+                href="#home"
+                class="text-[16px] font-Lato font-normal duration-300 hover:text-yelloWcolor"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="text-[16px] font-Lato font-normal duration-300 hover:text-yelloWcolor"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#difference"
+                class="text-[16px] font-Lato font-normal duration-300 hover:text-yelloWcolor"
+                >Difference</a
+              >
+            </li>
+          </ul>
+          <div class="flex gap-x-[20px]">
+            <button class="hidden max-[500px]:block">
+              <i class="fa-solid fa-bars text-[22px]"></i>
+            </button>
+            <button
+              class="text-[16px] font-Lato font-medium py-[10px] px-[20px] border-2 border-yelloWcolor text-yelloWcolor rounded-[10px] max-[500px]:py-[6px] max-[500px]:px-[14px] duration-300 hover:bg-yelloWcolor hover:text-blackColor"
+            >
+              Contact
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <div class="w-full">
+      <!-- Section 1 -->
+      <section id="home" class="container max-w-[1280px] pt-[50px] pb-[150px]">
+        <div
+          class="flex items-center flex-col gap-y-[20px] text-center max-[700px]:gap-y-[12px]"
+        >
+          <h1 data-aos="fade-up"
+            class="text-[53px] font-Inter font-semibold leading-[1.3] max-[700px]:text-[36px]"
+          >
+            <span class="text-yelloWcolor">JavaScriptni</span> o'rganishni dvom
+            ettiramiz
+          </h1>
+          <p data-aos="fade-down" class="text-[18px] font-Inter font-normal max-[700px]:text-[14px]">
+            Agar ko'proq ma'lumot olmoqchi bo'lsangiz hoziroq pastdagi tugmani
+            bosing
+          </p>
+          <img data-aos="fade-right" src="../assets/avataaars 1.png" />
+          <button data-aos="fade-left" class="py-[12px] px-[30px] bg-yelloWcolor rounded-[6px]">
+            Qani ketdik
+          </button>
+        </div>
+      </section>
+      <!-- Section 2 -->
+      <section class="container max-w-[1280px] pb-[100px]">
+        <div
+          class="grid gap-[20px] grid-cols-3 max-[1000px]:grid-cols-2 max-[500px]:grid-cols-1"
+        >
+          <div data-aos="fade-left"
+            class="bg-greyColor rounded-md p-5 flex flex-col gap-[10px] text-center"
+          >
+            <h3
+              class="text-[20px] font-RobotoFlex font-semibold max-[600px]:text-[18px]"
+            >
+              Loop with for
+            </h3>
+            <p class="text-[15px] font-Inter tracking-wider">
+              for orqali JavaScriptda sikl hosil qilishni o'rganamiz
+            </p>
+            <a href="https://www.w3schools.com/js/js_loop_for.asp" class="text-[15px] underline text-yelloWcolor"
+              >Ko'proq</a
+            >
+          </div>
+          <div data-aos="flip-left"
+            class="bg-greyColor rounded-md p-5 flex flex-col gap-[10px] text-center"
+          >
+            <h3
+              class="text-[20px] font-RobotoFlex font-semibold max-[600px]:text-[18px]"
+            >
+              Loop with while
+            </h3>
+            <p class="text-[15px] font-Inter tracking-wider">
+              o'zgartirilgan syntax orqali siklni qayta o'rganamiz
+            </p>
+            <a href="https://www.w3schools.com/js/js_loop_while.asp" class="text-[15px] underline text-yelloWcolor"
+              >Ko'proq</a
+            >
+          </div>
+          <div data-aos="fade-up-left"
+            class="bg-greyColor rounded-md p-5 flex flex-col gap-[10px] text-center"
+          >
+            <h3
+              class="text-[20px] font-RobotoFlex font-semibold max-[600px]:text-[18px]"
+            >
+              Loop with do wile
+            </h3>
+            <p class="text-[15px] font-Inter tracking-wider">
+              do while dagi ajoyib holat...
+            </p>
+            <a href="https://www.w3schools.com/jsref/jsref_dowhile.asp" class="text-[15px] underline text-yelloWcolor"
+              >Ko'proq</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Section 3 -->
+      <section id="about" class="container max-w-[1280px] pb-[100px]">
+        <div
+          class="grid grid-cols-2 max-[800px]:grid-cols-1 max-[800px]:flex-col-reverse gap-y-[30px]"
+        >
+          <div data-aos="fade-down-right"
+            class="flex flex-col items-start gap-[30px] justify-center pl-[30px] max-[500px]:px-[15px]"
+          >
+            <h2 class="text-[36px] font-Lato font-semibold">
+              Sikl qanday ishlaydi
+            </h2>
+            <p
+              class="text-[18px] font-Inter font-normal max-[700px]:text-[14px]"
+            >
+              JavaScriptda sikl (yoki loop) – bir amalni yoki kod blokini
+              qayta-qayta bajarish imkonini beruvchi konstruksiya. JavaScriptda
+              eng ko‘p qo‘llaniladigan sikl turlari: for, while, va do...while.
+              <br /><br />
+              Sikl yordamida massiv elementlarini o‘qish, hisoblash amallarini
+              takrorlash, yoki ma'lum shart bajarilgunga qadar jarayonni davom
+              ettirish mumkin.
+            </p>
+            <a href="https://www.w3schools.com/js/js_loop_for.asp" class="text-[16px] underline text-yelloWcolor"
+              >Ko'proq</a
+            >
+          </div>
+          <div data-aos="fade-down-left" class="grid place-items-center">
+            <img
+              src="../assets/javascript-for-loop-new.png"
+              class="w-[500px] max-[500px]:max-w-full"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- section 4 -->
+      <section id="difference" class="container max-w-[1280px] pb-[100px]">
+        <div
+          class="grid grid-cols-3 gap-[20px] max-[1200px]:grid-cols-2 max-[800px]:grid-cols-1"
+        >
+          <div data-aos="fade-right" class="bg-greyColor rounded-[30px] p-[30px]">
+            <h3
+              class="text-[20px] font-RobotoFlex font-semibold max-[600px]:text-[18px]"
+            >
+              For
+            </h3>
+            <br />
+            <p>
+              <span class="text-green-500 leading-[2.3]">
+                // for (let i = 1; i <= 5; i++) { <br />
+                // console.log(i);<br />
+                // } </span
+              ><br /><br />
+              Tushuntirish: <br />
+              1. let i = 1; - Bu boshlang'ich qiymat qadamidir. Sikl boshida i
+              ni 1 ga tenglaydi. <br />
+              2. i <= 5; - Bu shart qismidir. Sikl i 5 dan kichik yoki teng
+              bo'lganda davom etadi. <br />
+              3. i++ - Bu yangilash qadamidir. Har bir aylanishdan keyin i
+              qiymati 1 ga oshadi.
+              <br /><br />
+              Natija:
+              <span class="text-green-500"> 1 2 3 4 5 </span>
+            </p>
+          </div>
+          <div data-aos="zoom-in" class="bg-greyColor rounded-[30px] p-[30px]">
+            <h3
+              class="text-[20px] font-RobotoFlex font-semibold max-[600px]:text-[18px]"
+            >
+              While
+            </h3>
+            <br />
+            <p>
+              <span class="text-green-500 leading-[2]">
+                // let i = 1;<br />
+                // while (i <= 5) {<br />
+                // console.log(i);<br />
+                // i++;<br />
+                // } </span
+              ><br /><br />
+              Tushuntirish: <br />
+              1. let i = 1; - Bu boshlang'ich qiymat. i ga 1 qiymati
+              beriladi.<br />
+              2. while (i <= 5) - Bu shart qismi. Sikl i 5 dan kichik yoki teng
+              bo'lganda davom etadi.<br />
+              3. i++ - Bu yangilash qismi. Har bir aylanishdan keyin i qiymati 1
+              ga oshadi.
+              <br /><br />
+              Natija:
+              <span class="text-green-500"> 1 2 3 4 5 </span>
+            </p>
+          </div>
+          <div data-aos="fade-left" class="bg-greyColor rounded-[30px] p-[30px]">
+            <h3
+              class="text-[20px] font-RobotoFlex font-semibold max-[600px]:text-[18px]"
+            >
+              Do while
+            </h3>
+            <br />
+            <p>
+              <span class="text-green-500 leading-[2.3]">
+                // let i = 1;<br />
+                // do {<br />
+                // console.log(i);<br />
+                // i++; <br />
+                // } while (i <= 5); </span
+              ><br /><br />
+              Tushuntirish: <br />
+              1. let i = 1; - Bu boshlang'ich qiymat qadamidir. Sikl boshida i
+              ni 1 ga tenglaydi. <br />
+              2. do { ... } - Bu sikl tanasi. Kod blok ichida joylashgan kod
+              kamida bir marta bajariladi.<br />
+              3. while (i <= 5); - Bu shart qismi. Sikl i 5 dan kichik yoki teng
+              bo'lganda davom etadi.
+              <br /><br />
+              Natija:
+              <span class="text-green-500"> 1 2 3 4 5 </span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Footer -->
+    <footer class="w-full bg-yelloWcolor">
+      <section class="container max-w-[1280px] py-[30px] text-center">
+        <p class="text-[14px] text-whitish">
+          <i class="fa-regular fa-copyright"></i> Ushubu websahifa mualliflik
+          huquqiga ega, va har qanday huquqni buzuvchi hatti harakat chun
+          foydalanuvchi javobgarlikka tortiladi
+        </p>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script>
+        AOS.init({
+            duration: 2000  
+        });
+      </script>
+  </body>
+</html>
